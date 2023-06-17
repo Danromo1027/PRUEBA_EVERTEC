@@ -1,0 +1,14 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 750px; /* Ajusta el ancho de la tarjeta según tus necesidades */
+    border: 0px solid #ccc; /* Opcional: agrega un borde a la tarjeta */
+    border-radius: 10px; /* Opcional: agrega esquinas redondeadas a la tarjeta */
+    padding: 20px; /* Opcional: agrega relleno interno a la tarjeta */
+}

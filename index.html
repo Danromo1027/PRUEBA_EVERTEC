@@ -1,0 +1,89 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://localhost/EVERTECPHP/assets/css/bootstrap.css">
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            max-width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .form-container .form-signin img {
+            margin-bottom: 1rem;
+        }
+
+        .form-container .form-signin h1 {
+            margin-bottom: 0.75rem;
+        }
+
+        .form-container .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-container .form-select {
+            margin-bottom: 1rem;
+        }
+
+        .form-container .form-group input[type="text"],
+        .form-container .form-group input[type="number"],
+        .form-container .form-select {
+            height: 40px;
+            font-size: 14px;
+            padding: 6px 12px;
+        }
+
+        .form-container .mt-4 {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body class="text-center">
+    <div class="form-container">
+        <form class="form-signin" action="crearsesion.php" method='POST'>
+            <img class="mb-4" src="http://localhost/EVERTECPHP/assets/img/placetopay-logo.svg" alt="" width="400" height="240">  
+            <h1 class="h4 mb-3 fw-normal"></h1>
+ 
+            <div class="form-group">
+                <input type="text" class="form-control"  name="Referencia" placeholder="Referencia">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control"  name="Descripcion" placeholder="Descripcion">
+            </div>
+            <div class="form-group">
+                <select name="tipo_moneda" class="form-control">
+                  <option value="USD">Dolar</option>
+                  <option value="COP" selected>Peso Colombiano</option>
+                  <option value="MXN">Peso Mexicano</option>
+                </select>
+        </div>
+
+            <div class="form-group">
+                <input type="number" class="form-control" name="total" placeholder="Total">
+            </div> 
+
+            <div class="text-center" >
+                <button type="submit" name="boton2" value="accion2" class="btn btn-primary">   pagar   </button>
+              </div>
+        </form>
+    </div>
+
+    <script src="http://localhost/EVERTECPHP/assets/js/bootstrap.js"></script>
+</body>
+</html>
