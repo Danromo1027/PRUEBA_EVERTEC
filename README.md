@@ -15,4 +15,4 @@ PONER CUALQUIER FECHA DE VENCIMIENTO Y CVV
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tuusuario/proyecto-api-empresa.git
+  (https://github.com/Danromo1027/PRUEBA_EVERTEC.git)
