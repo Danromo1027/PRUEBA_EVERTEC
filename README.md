@@ -2,7 +2,7 @@
 
 # Proyecto de Consumo de API para Empresa de Transacciones Virtuales
 
-Este proyecto está diseñado para facilitar la integración y el consumo de la API de [Nombre de la Empresa de Transacciones Virtuales]. Proporciona una interfaz sencilla para realizar operaciones relacionadas con transacciones virtuales, lo que permite a los desarrolladores interactuar fácilmente con los servicios proporcionados por la empresa.
+Este proyecto está diseñado para facilitar la integración y el consumo de la API de PLACE TO PAY DE EVERTEC. Proporciona una interfaz sencilla para realizar operaciones relacionadas con transacciones virtuales, lo que permite a los desarrolladores interactuar fácilmente con los servicios proporcionados por la empresa.
 
 ## Configuración
 
